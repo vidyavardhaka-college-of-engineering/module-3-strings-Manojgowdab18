@@ -19,7 +19,7 @@ int main()
   {                          
 		str2[i]= str1[i];;
 	}
-	str2[i]= '\0';                 //Complete the statement
+	str2[i]=str1[i];                 //Complete the statement
 	printf("The copied String-2 is %s",str2);
 	return 0;
 }

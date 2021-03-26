@@ -13,17 +13,7 @@ int main()
   int c , count = 0;
   char s[1000]; //Declare the string
 printf("Enter the String: ");
-scanf("%s", s);
-
-for(c=0;c<500;c++)
-{
-    if(s[c]=='i') 
-    {
-      count++;
-    }
-  }
-
-  printf("Number of vowels in the string",count);
-//read the string from user                      //Print the string
+scanf("%s", s); //read the string from user
+printf("The input string is %s",s);//Print the string
 return 0;
 }
