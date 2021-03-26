@@ -1,4 +1,4 @@
-Complete the given program with string declaration/initialization & read/print the string
+//Complete the given program with string declaration/initialization & read/print the string
 // Instructions:-
 //1) Initially, declare a string with size
 //2) read the input string from user 
@@ -11,21 +11,19 @@ Complete the given program with string declaration/initialization & read/print t
 int main() 
 {
   int c , count = 0;
-  char s[1000];
-                      //Declare the string
-printf("Enter a String: ");
+  char s[1000]; //Declare the string
+printf("Enter the String: ");
 scanf("%s", s);
 
 for(c=0;c<500;c++)
 {
-    if(s[c]=='i')
+    if(s[c]=='i') 
     {
       count++;
     }
   }
 
-  printf("Number of vowels in the string");
-                      //read the string from user
-                      //Print the string
+  printf("Number of vowels in the string",count);
+//read the string from user                      //Print the string
 return 0;
 }
